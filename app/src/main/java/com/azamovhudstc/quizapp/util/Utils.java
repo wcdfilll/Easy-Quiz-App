@@ -72,11 +72,11 @@ public class Utils {
         HashMap<String,Map<String,Boolean>> questions = new HashMap<>();
 
         HashMap<String,Boolean> answer1 = new HashMap<>();
-        answer1.put("Maya Angelou",true);
-        answer1.put("Robert Hass",false);
-        answer1.put("Jessica Hagdorn",false);
-        answer1.put("Micheal Palmer",false);
-        questions.put("Which American writer published ‘A brave and startling truth’ in 1996",answer1);
+        answer1.put("A. 45307",true);
+        answer1.put("B. 45308",false);
+        answer1.put("C. 45380",false);
+        answer1.put("D. 45038",false);
+        questions.put("Số bốn mươi lăm nghìn ba trăm linh tám được viết là:",answer1);
 
         HashMap<String,Boolean> answer2 = new HashMap<>();
         answer2.put("Acrostic ",true);
